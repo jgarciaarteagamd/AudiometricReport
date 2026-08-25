@@ -12,6 +12,18 @@ const it = {
     reportGenerator: {
       title: "Software per referti: Audiometria tonale, vocale e impedenzometria | AudiometricReport",
       description: "Crea referti medici completi con grafici professionali. Include audiometria (via aerea/ossea con mascheramento), audiometria vocale (SDT, SRT, WRS) e timpanometria. Elaborazione 100% locale.",
+    },
+    faq: {
+      title: "Domande Frequenti su PTA e Perdita Uditiva | AudiometricReport",
+      description: "Risposte alle domande più comuni sul calcolo del PTA, gli standard AAO-HNS/AMA/AAOO e l'uso di AudiometricReport per generare referti audiometrici.",
+    },
+    legalNotice: {
+      title: "Note Legali | AudiometricReport",
+      description: "Informazioni legali, dati del titolare e condizioni d'uso di AudiometricReport, strumento clinico per i professionisti dell'udito.",
+    },
+    privacyPolicy: {
+      title: "Informativa sulla Privacy | AudiometricReport",
+      description: "Come AudiometricReport protegge i dati dei tuoi pazienti: architettura 100% locale, nessun invio di informazioni a server esterni.",
     }
   },
   common: {

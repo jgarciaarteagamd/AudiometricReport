@@ -13,6 +13,18 @@ const es = {
     reportGenerator: {
       title: "Software de Informes: Audiometría Tonal, Logoaudiometría e Impedancias | AudiometricReport",
       description: "Cree informes médicos completos con gráficos profesionales. Incluye audiometría (vía aérea/ósea con enmascaramiento), logoaudiometría (SDT, SRT, WRS) e impedanciometría. Procesamiento 100% privado y local."
+    },
+    faq: {
+      title: "Preguntas Frecuentes sobre PTA y Pérdida Auditiva | AudiometricReport",
+      description: "Resolvemos las dudas más comunes sobre el cálculo del PTA, los estándares AAO-HNS/AMA/AAOO y el uso de AudiometricReport para generar informes audiométricos."
+    },
+    legalNotice: {
+      title: "Aviso Legal | AudiometricReport",
+      description: "Información legal, identificación del responsable y condiciones de uso de AudiometricReport, herramienta clínica para profesionales de la audición."
+    },
+    privacyPolicy: {
+      title: "Política de Privacidad | AudiometricReport",
+      description: "Cómo protege AudiometricReport los datos de tus pacientes: arquitectura 100% local, sin envío de información a servidores externos."
     }
   },
   common: {

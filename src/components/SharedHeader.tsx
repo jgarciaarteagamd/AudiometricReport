@@ -52,13 +52,6 @@ const SharedHeader: React.FC<SharedHeaderProps> = ({ onGoHome, currentLang, onSe
     ];
 
     const handleLanguageChange = (langCode: string) => {
-        try {
-            const url = new URL(window.location.href);
-            url.searchParams.set('lang', langCode);
-            window.history.replaceState({}, '', url.toString());
-        } catch (e) {
-            console.warn("Error sincronizando idioma en URL:", e);
-        }
         onSetLanguage(langCode);
         setIsLangOpen(false);
     };

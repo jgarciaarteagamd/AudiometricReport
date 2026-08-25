@@ -1,5 +1,6 @@
 
 import React, { createContext, useContext, useState, ReactNode, useMemo, useEffect } from 'react';
+import { parsePathname } from '../utils/routes';
 import es from './es';
 import en from './en';
 import de from './de';
@@ -19,7 +20,17 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<string>(() => {
-    // Try to sync with URL on initial load
+    // 1. Try to sync with pathname first (e.g. /en/calculator, /fr/)
+    try {
+      const parsed = parsePathname(window.location.pathname);
+      if (parsed?.lang && translationsData[parsed.lang]) {
+        return parsed.lang;
+      }
+    } catch (e) {
+      console.warn("Error parsing pathname for language:", e);
+    }
+
+    // 2. Try to sync with legacy query param (?lang=)
     const params = new URLSearchParams(window.location.search);
     const urlLang = params.get('lang');
     if (urlLang && translationsData[urlLang]) return urlLang;

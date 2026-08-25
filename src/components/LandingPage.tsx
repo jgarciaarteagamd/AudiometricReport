@@ -9,6 +9,7 @@ import { AppView } from '../types';
 interface LandingPageProps {
   onNavigate: (page: AppView) => void;
   onGoHome: () => void;
+  onSetLanguage?: (lang: string) => void;
 }
 
 const ActionCard: React.FC<{ title: string; desc: string; onClick: () => void; icon: React.ReactNode; primary?: boolean }> = ({ title, desc, onClick, icon, primary }) => {
@@ -37,10 +38,19 @@ const ActionCard: React.FC<{ title: string; desc: string; onClick: () => void; i
     );
 };
 
-const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, onGoHome }) => {
+const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, onGoHome, onSetLanguage }) => {
   const { t, language, setLanguage } = useTranslations();
   const [isLangOpen, setIsLangOpen] = useState(false);
   const langMenuRef = useRef<HTMLDivElement>(null);
+
+  const handleSelectLanguage = (code: string) => {
+    if (onSetLanguage) {
+      onSetLanguage(code);
+    } else {
+      setLanguage(code);
+    }
+    setIsLangOpen(false);
+  };
 
   useEffect(() => {
     const click = (e: any) => { if (langMenuRef.current && !langMenuRef.current.contains(e.target)) setIsLangOpen(false); };
@@ -70,7 +80,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, onGoHome }) => {
               {isLangOpen && (
                 <div className="absolute right-0 mt-2 w-32 bg-white rounded-2xl shadow-2xl border border-slate-100 py-2 z-50 animate-slideIn">
                   {languages.map(l => (
-                    <button key={l.code} onClick={() => { setLanguage(l.code); setIsLangOpen(false); }} className={`w-full flex items-center gap-3 px-4 py-2.5 text-sm ${language === l.code ? 'bg-purple-50 text-primary font-black' : 'text-slate-600 hover:bg-slate-50'}`}>
+                    <button key={l.code} onClick={() => handleSelectLanguage(l.code)} className={`w-full flex items-center gap-3 px-4 py-2.5 text-sm ${language === l.code ? 'bg-purple-50 text-primary font-black' : 'text-slate-600 hover:bg-slate-50'}`}>
                       <CircularFlag lang={l.code} />
                       <span className="font-black uppercase tracking-widest">{l.label}</span>
                     </button>

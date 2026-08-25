@@ -12,6 +12,18 @@ const de = {
     reportGenerator: {
       title: "Berichtssoftware: Tonaudiometrie, Sprache & Impedanz | AudiometricReport",
       description: "Erstellen Sie umfassende medizinische Berichte mit professionellen Diagrammen. Umfasst Audiometrie (Luft-/Knochenleitung mit Vertäubung), Sprachaudiometrie (SDT, SRT, WRS) und Tympanometrie. 100% private lokale Verarbeitung.",
+    },
+    faq: {
+      title: "Häufig gestellte Fragen zu PTA und Hörverlust | AudiometricReport",
+      description: "Antworten auf häufige Fragen zur PTA-Berechnung, den AAO-HNS/AMA/AAOO-Standards und zur Erstellung audiometrischer Berichte mit AudiometricReport.",
+    },
+    legalNotice: {
+      title: "Impressum & Rechtliche Hinweise | AudiometricReport",
+      description: "Rechtliche Informationen, Verantwortliche und Nutzungsbedingungen von AudiometricReport, dem klinischen Werkzeug für Hörspezialisten.",
+    },
+    privacyPolicy: {
+      title: "Datenschutzerklärung | AudiometricReport",
+      description: "Wie AudiometricReport die Daten Ihrer Patienten schützt: 100 % lokale Architektur, keine Übertragung von Informationen an externe Server.",
     }
   },
   common: {

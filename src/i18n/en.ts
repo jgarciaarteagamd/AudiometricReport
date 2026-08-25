@@ -12,6 +12,18 @@ const en = {
     reportGenerator: {
       title: "Reporting Software: Tonal Audiometry, Speech & Impedance | AudiometricReport",
       description: "Create comprehensive medical reports with professional charts. Includes audiometry (air/bone with masking), speech audiometry (SDT, SRT, WRS), and tympanometry. 100% private local processing.",
+    },
+    faq: {
+      title: "Frequently Asked Questions — PTA & Hearing Loss | AudiometricReport",
+      description: "Answers to common questions about PTA calculation, the AAO-HNS/AMA/AAOO standards, and how to use AudiometricReport to generate audiometric reports.",
+    },
+    legalNotice: {
+      title: "Legal Notice | AudiometricReport",
+      description: "Legal information, ownership details, and terms of use for AudiometricReport, a clinical tool for hearing care professionals.",
+    },
+    privacyPolicy: {
+      title: "Privacy Policy | AudiometricReport",
+      description: "How AudiometricReport protects your patients' data: a 100% local architecture with no information sent to external servers.",
     }
   },
   common: {

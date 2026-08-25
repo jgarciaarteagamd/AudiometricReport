@@ -3,5 +3,7 @@
   "description": "Professional PTA \u0026 AMA/AAO audiometry calculator and PDF report generator. Privacy-by-design with 100% browser-based local processing for ENTs and audiologists.",
   "requestFramePermissions": [],
   "prompt": "",
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

@@ -12,6 +12,18 @@ const fr = {
     reportGenerator: {
       title: "Logiciel de création de rapports : Audiométrie tonale, vocale et impédancemétrie | AudiometricReport",
       description: "Créez des rapports médicaux complets avec des graphiques professionnels. Comprend l'audiométrie (CA/CO avec masquage), l'audiométrie vocale (SDT, SRT, WRS) et la tympanométrie. Traitement 100% local.",
+    },
+    faq: {
+      title: "Foire aux Questions sur le PTA et la Perte Auditive | AudiometricReport",
+      description: "Réponses aux questions courantes sur le calcul du PTA, les normes AAO-HNS/AMA/AAOO et l'utilisation d'AudiometricReport pour générer des rapports audiométriques.",
+    },
+    legalNotice: {
+      title: "Mentions Légales | AudiometricReport",
+      description: "Informations légales, identification du responsable et conditions d'utilisation d'AudiometricReport, outil clinique pour les professionnels de l'audition.",
+    },
+    privacyPolicy: {
+      title: "Politique de Confidentialité | AudiometricReport",
+      description: "Comment AudiometricReport protège les données de vos patients : architecture 100 % locale, sans envoi d'informations vers des serveurs externes.",
     }
   },
   common: {

@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { LanguageProvider, useTranslations } from './i18n/LanguageContext';
 import LandingPage from './components/LandingPage';
@@ -16,6 +15,7 @@ import CookieConsent from './components/CookieConsent';
 import { FullReportData } from './types';
 import { AppView } from './types';
 import { trackEvent } from './utils/analytics';
+import { getCleanPath, getCanonicalUrl, parsePathname } from './utils/routes';
 
 const AudiometricReportContent: React.FC = () => {
     const { language, setLanguage, translations } = useTranslations();
@@ -31,7 +31,7 @@ const AudiometricReportContent: React.FC = () => {
         }
     }, [view]);
 
-    // Dynamic SEO Update based on view
+    // Dynamic SEO Update based on view and language
     useEffect(() => {
         if (!translations || !translations.seo) return;
         
@@ -57,7 +57,7 @@ const AudiometricReportContent: React.FC = () => {
             }
         }
         
-        // Update canonical link dynamically
+        // Update canonical link dynamically (exclude private free-report)
         let canonicalLink = document.querySelector('link[rel="canonical"]');
         if (!canonicalLink) {
             canonicalLink = document.createElement('link');
@@ -66,48 +66,98 @@ const AudiometricReportContent: React.FC = () => {
         }
         
         try {
-            const currentUrl = new URL(window.location.href);
-            // Ensure no tracking params are in canonical, but keep 'view' parameter.
-            const searchParams = new URLSearchParams();
-            if (view !== 'menu') {
-                searchParams.set('view', view);
+            if (view === 'free-report') {
+                canonicalLink.removeAttribute('href');
+            } else {
+                const canonicalUrl = getCanonicalUrl(currentView, language);
+                canonicalLink.setAttribute('href', canonicalUrl);
             }
-            // Add 'lang' param if it's currently present or needed
-            const urlLang = new URLSearchParams(currentUrl.search).get('lang');
-            if (urlLang) searchParams.set('lang', urlLang);
-            
-            const cleanQuery = searchParams.toString();
-            const cleanUrl = currentUrl.origin + currentUrl.pathname + (cleanQuery ? '?' + cleanQuery : '');
-            canonicalLink.setAttribute('href', cleanUrl);
         } catch(e) {
             console.warn("Could not update canonical url", e);
         }
-    }, [view, translations]);
+    }, [view, language, translations]);
 
     const syncViewFromUrl = useCallback(() => {
-        const p = new URLSearchParams(window.location.search);
-        const v = p.get('view');
-        const rid = p.get('reportId');
-        const langUrl = p.get('lang');
+        const searchParams = new URLSearchParams(window.location.search);
+        const queryView = searchParams.get('view');
+        const queryReportId = searchParams.get('reportId');
+        const queryLang = searchParams.get('lang');
 
-        // Sincronizar idioma solo la primera vez o si viene en URL
-        if (langUrl && langUrl !== language) {
-            setLanguage(langUrl);
+        // Check if this is a private free-report view (query params)
+        if (queryView === 'free-report' && queryReportId) {
+            if (queryLang && queryLang !== language) {
+                setLanguage(queryLang);
+            }
+            setIsStarted(true);
+            setView('free-report');
+            const stored = sessionStorage.getItem(`report_data_${queryReportId}`);
+            if (stored) setReportData(JSON.parse(stored));
+            return;
         }
 
-        if (v === 'calculator' || v === 'reportGenerator' || v === 'legalNotice' || v === 'privacyPolicy' || v === 'termsAndConditions' || v === 'faq' || v === 'reportIssue' || (v === 'free-report' && !!rid)) {
+        // 1. Try parsing clean pathname
+        const parsed = parsePathname(window.location.pathname);
+
+        if (parsed) {
+            if (parsed.lang && parsed.lang !== language) {
+                setLanguage(parsed.lang);
+            }
+            const activeLang = parsed.lang || language;
+
+            if (parsed.view === 'menu') {
+                setIsStarted(false);
+                setView('menu');
+            } else {
+                setIsStarted(true);
+                setView(parsed.view);
+            }
+
+            // If there were legacy query parameters on a clean path, clean them up
+            if (queryView || queryLang) {
+                try {
+                    if (window.location.protocol !== 'blob:') {
+                        const cleanUrl = getCleanPath(parsed.view, activeLang);
+                        window.history.replaceState({}, '', cleanUrl);
+                    }
+                } catch (e) {
+                    console.warn("Could not replace state for legacy query params", e);
+                }
+            }
+            return;
+        }
+
+        // 2. Legacy query params fallback (e.g. /?view=calculator&lang=en)
+        const activeLang = queryLang || language;
+        if (queryLang && queryLang !== language) {
+            setLanguage(queryLang);
+        }
+
+        if (queryView && ['calculator', 'reportGenerator', 'legalNotice', 'privacyPolicy', 'termsAndConditions', 'faq', 'reportIssue'].includes(queryView)) {
             setIsStarted(true);
-            setView(v as any);
-            
-            if (v === 'free-report' && rid) {
-                const stored = sessionStorage.getItem(`report_data_${rid}`);
-                if (stored) setReportData(JSON.parse(stored));
+            setView(queryView as AppView);
+            try {
+                if (window.location.protocol !== 'blob:') {
+                    const cleanUrl = getCleanPath(queryView as AppView, activeLang);
+                    window.history.replaceState({}, '', cleanUrl);
+                }
+            } catch (e) {
+                console.warn("Could not replace state for legacy query params", e);
             }
         } else {
             setIsStarted(false);
             setView('menu');
+            try {
+                if (window.location.protocol !== 'blob:') {
+                    const cleanUrl = getCleanPath('home', activeLang);
+                    if (window.location.pathname !== cleanUrl || window.location.search) {
+                        window.history.replaceState({}, '', cleanUrl);
+                    }
+                }
+            } catch (e) {
+                console.warn("Could not replace state for home url", e);
+            }
         }
-    }, [setLanguage]); // Eliminado language de las dependencias
+    }, [language, setLanguage]);
 
     useEffect(() => {
         if (!initialSyncDone.current) {
@@ -129,14 +179,8 @@ const AudiometricReportContent: React.FC = () => {
 
         try {
             if (window.location.protocol !== 'blob:') {
-                const url = new URL(window.location.href);
-                if (targetView === 'menu') {
-                    url.searchParams.delete('view');
-                    url.searchParams.delete('reportId');
-                } else {
-                    url.searchParams.set('view', targetView);
-                }
-                window.history.pushState({}, '', url.toString());
+                const cleanPath = getCleanPath(targetView === 'menu' ? 'home' : targetView, language);
+                window.history.pushState({}, '', cleanPath);
             }
         } catch (e) {
             console.warn("Error en navegación:", e);
@@ -148,13 +192,23 @@ const AudiometricReportContent: React.FC = () => {
         setView('menu');
         try {
             if (window.location.protocol !== 'blob:') {
-                const url = new URL(window.location.href);
-                url.searchParams.delete('view');
-                url.searchParams.delete('reportId');
-                window.history.pushState({}, '', url.toString());
+                const cleanPath = getCleanPath('home', language);
+                window.history.pushState({}, '', cleanPath);
             }
         } catch (e) {
             console.warn("Error en navegación:", e);
+        }
+    };
+
+    const handleLanguageChange = (newLang: string) => {
+        setLanguage(newLang);
+        try {
+            if (window.location.protocol !== 'blob:' && view !== 'free-report') {
+                const cleanPath = getCleanPath(view === 'menu' ? 'home' : view, newLang);
+                window.history.replaceState({}, '', cleanPath);
+            }
+        } catch (e) {
+            console.warn("Error sincronizando idioma en URL:", e);
         }
     };
 
@@ -164,6 +218,7 @@ const AudiometricReportContent: React.FC = () => {
         <LandingPage 
             onNavigate={navigateTo} 
             onGoHome={goHome}
+            onSetLanguage={handleLanguageChange}
         />
     );
 
@@ -172,7 +227,7 @@ const AudiometricReportContent: React.FC = () => {
             <SharedHeader 
                 onGoHome={goHome} 
                 currentLang={language} 
-                onSetLanguage={setLanguage}
+                onSetLanguage={handleLanguageChange}
             />
             <div className="flex-grow max-w-7xl mx-auto px-4 w-full pt-28 pb-6">
                 {view === 'calculator' && <PtaCalculator onBack={goHome} isFree={true} />}

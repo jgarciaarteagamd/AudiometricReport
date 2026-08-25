@@ -1,435 +1,446 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- ==================== HOME (/) ==================== -->
   <url>
     <loc>https://audiometric.report/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/" />
   </url>
   <url>
-    <loc>https://audiometric.report/?lang=es</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?lang=pt" />
+    <loc>https://audiometric.report/en/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/" />
   </url>
   <url>
-    <loc>https://audiometric.report/?lang=en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?lang=pt" />
+    <loc>https://audiometric.report/de/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/" />
   </url>
   <url>
-    <loc>https://audiometric.report/?lang=de</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?lang=pt" />
+    <loc>https://audiometric.report/fr/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/" />
   </url>
   <url>
-    <loc>https://audiometric.report/?lang=fr</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?lang=pt" />
+    <loc>https://audiometric.report/it/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/" />
   </url>
   <url>
-    <loc>https://audiometric.report/?lang=it</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?lang=pt" />
+    <loc>https://audiometric.report/pt/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/" />
   </url>
+
+  <!-- ==================== CALCULATOR (/calculator) ==================== -->
   <url>
-    <loc>https://audiometric.report/?lang=pt</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=calculator</loc>
+    <loc>https://audiometric.report/calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=calculator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=calculator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=calculator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=calculator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=calculator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=calculator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=calculator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/calculator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/calculator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/calculator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/calculator" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=calculator&amp;lang=es</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=calculator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=calculator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=calculator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=calculator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=calculator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=calculator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=calculator" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=calculator&amp;lang=en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=calculator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=calculator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=calculator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=calculator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=calculator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=calculator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=calculator" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=calculator&amp;lang=de</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=calculator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=calculator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=calculator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=calculator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=calculator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=calculator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=calculator" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=calculator&amp;lang=fr</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=calculator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=calculator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=calculator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=calculator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=calculator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=calculator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=calculator" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=calculator&amp;lang=it</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=calculator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=calculator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=calculator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=calculator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=calculator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=calculator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=calculator" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=calculator&amp;lang=pt</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=calculator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=calculator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=calculator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=calculator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=calculator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=calculator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=calculator" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=reportGenerator</loc>
+    <loc>https://audiometric.report/en/calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=reportGenerator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=reportGenerator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=reportGenerator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=reportGenerator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=reportGenerator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=reportGenerator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=reportGenerator" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/calculator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/calculator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/calculator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/calculator" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=reportGenerator&amp;lang=es</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=reportGenerator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=reportGenerator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=reportGenerator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=reportGenerator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=reportGenerator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=reportGenerator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=reportGenerator" />
+    <loc>https://audiometric.report/de/calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/calculator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/calculator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/calculator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/calculator" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=reportGenerator&amp;lang=en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=reportGenerator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=reportGenerator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=reportGenerator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=reportGenerator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=reportGenerator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=reportGenerator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=reportGenerator" />
+    <loc>https://audiometric.report/fr/calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/calculator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/calculator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/calculator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/calculator" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=reportGenerator&amp;lang=de</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=reportGenerator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=reportGenerator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=reportGenerator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=reportGenerator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=reportGenerator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=reportGenerator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=reportGenerator" />
+    <loc>https://audiometric.report/it/calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/calculator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/calculator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/calculator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/calculator" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=reportGenerator&amp;lang=fr</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=reportGenerator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=reportGenerator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=reportGenerator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=reportGenerator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=reportGenerator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=reportGenerator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=reportGenerator" />
+    <loc>https://audiometric.report/pt/calculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/calculator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/calculator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/calculator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/calculator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/calculator" />
+  </url>
+
+  <!-- ==================== REPORT GENERATOR (/report-generator) ==================== -->
+  <url>
+    <loc>https://audiometric.report/report-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/report-generator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/report-generator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/report-generator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/report-generator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/report-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/report-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/report-generator" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=reportGenerator&amp;lang=it</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=reportGenerator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=reportGenerator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=reportGenerator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=reportGenerator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=reportGenerator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=reportGenerator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=reportGenerator" />
+    <loc>https://audiometric.report/en/report-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/report-generator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/report-generator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/report-generator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/report-generator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/report-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/report-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/report-generator" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=reportGenerator&amp;lang=pt</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=reportGenerator&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=reportGenerator&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=reportGenerator&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=reportGenerator&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=reportGenerator&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=reportGenerator&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=reportGenerator" />
+    <loc>https://audiometric.report/de/report-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/report-generator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/report-generator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/report-generator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/report-generator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/report-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/report-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/report-generator" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=legalNotice</loc>
+    <loc>https://audiometric.report/fr/report-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/report-generator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/report-generator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/report-generator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/report-generator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/report-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/report-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/report-generator" />
+  </url>
+  <url>
+    <loc>https://audiometric.report/it/report-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/report-generator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/report-generator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/report-generator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/report-generator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/report-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/report-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/report-generator" />
+  </url>
+  <url>
+    <loc>https://audiometric.report/pt/report-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/report-generator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/report-generator" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/report-generator" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/report-generator" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/report-generator" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/report-generator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/report-generator" />
+  </url>
+
+  <!-- ==================== LEGAL NOTICE (/legal-notice) ==================== -->
+  <url>
+    <loc>https://audiometric.report/legal-notice</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=legalNotice&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=legalNotice&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=legalNotice&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=legalNotice&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=legalNotice&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=legalNotice&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=legalNotice" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/legal-notice" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=legalNotice&amp;lang=es</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=legalNotice&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=legalNotice&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=legalNotice&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=legalNotice&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=legalNotice&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=legalNotice&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=legalNotice" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=legalNotice&amp;lang=en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=legalNotice&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=legalNotice&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=legalNotice&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=legalNotice&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=legalNotice&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=legalNotice&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=legalNotice" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=legalNotice&amp;lang=de</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=legalNotice&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=legalNotice&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=legalNotice&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=legalNotice&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=legalNotice&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=legalNotice&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=legalNotice" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=legalNotice&amp;lang=fr</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=legalNotice&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=legalNotice&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=legalNotice&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=legalNotice&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=legalNotice&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=legalNotice&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=legalNotice" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=legalNotice&amp;lang=it</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=legalNotice&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=legalNotice&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=legalNotice&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=legalNotice&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=legalNotice&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=legalNotice&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=legalNotice" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=legalNotice&amp;lang=pt</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=legalNotice&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=legalNotice&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=legalNotice&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=legalNotice&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=legalNotice&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=legalNotice&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=legalNotice" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=privacyPolicy</loc>
+    <loc>https://audiometric.report/en/legal-notice</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=privacyPolicy&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=privacyPolicy&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=privacyPolicy&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=privacyPolicy&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=privacyPolicy&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=privacyPolicy&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=privacyPolicy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/legal-notice" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=privacyPolicy&amp;lang=es</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=privacyPolicy&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=privacyPolicy&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=privacyPolicy&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=privacyPolicy&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=privacyPolicy&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=privacyPolicy&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=privacyPolicy" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=privacyPolicy&amp;lang=en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=privacyPolicy&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=privacyPolicy&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=privacyPolicy&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=privacyPolicy&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=privacyPolicy&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=privacyPolicy&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=privacyPolicy" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=privacyPolicy&amp;lang=de</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=privacyPolicy&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=privacyPolicy&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=privacyPolicy&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=privacyPolicy&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=privacyPolicy&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=privacyPolicy&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=privacyPolicy" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=privacyPolicy&amp;lang=fr</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=privacyPolicy&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=privacyPolicy&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=privacyPolicy&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=privacyPolicy&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=privacyPolicy&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=privacyPolicy&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=privacyPolicy" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=privacyPolicy&amp;lang=it</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=privacyPolicy&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=privacyPolicy&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=privacyPolicy&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=privacyPolicy&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=privacyPolicy&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=privacyPolicy&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=privacyPolicy" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=privacyPolicy&amp;lang=pt</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=privacyPolicy&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=privacyPolicy&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=privacyPolicy&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=privacyPolicy&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=privacyPolicy&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=privacyPolicy&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=privacyPolicy" />
-  </url>
-  <url>
-    <loc>https://audiometric.report/?view=faq</loc>
+    <loc>https://audiometric.report/de/legal-notice</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=faq&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=faq&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=faq&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=faq&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=faq&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=faq&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/legal-notice" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=faq&amp;lang=es</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=faq&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=faq&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=faq&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=faq&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=faq&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=faq&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=faq" />
+    <loc>https://audiometric.report/fr/legal-notice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/legal-notice" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=faq&amp;lang=en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=faq&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=faq&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=faq&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=faq&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=faq&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=faq&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=faq" />
+    <loc>https://audiometric.report/it/legal-notice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/legal-notice" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=faq&amp;lang=de</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=faq&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=faq&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=faq&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=faq&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=faq&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=faq&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=faq" />
+    <loc>https://audiometric.report/pt/legal-notice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/legal-notice" />
+  </url>
+
+  <!-- ==================== PRIVACY POLICY (/privacy-policy) ==================== -->
+  <url>
+    <loc>https://audiometric.report/privacy-policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/privacy-policy" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=faq&amp;lang=fr</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=faq&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=faq&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=faq&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=faq&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=faq&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=faq&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=faq" />
+    <loc>https://audiometric.report/en/privacy-policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/privacy-policy" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=faq&amp;lang=it</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=faq&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=faq&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=faq&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=faq&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=faq&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=faq&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=faq" />
+    <loc>https://audiometric.report/de/privacy-policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/privacy-policy" />
   </url>
   <url>
-    <loc>https://audiometric.report/?view=faq&amp;lang=pt</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/?view=faq&amp;lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/?view=faq&amp;lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/?view=faq&amp;lang=de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/?view=faq&amp;lang=fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/?view=faq&amp;lang=it" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/?view=faq&amp;lang=pt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/?view=faq" />
+    <loc>https://audiometric.report/fr/privacy-policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/privacy-policy" />
+  </url>
+  <url>
+    <loc>https://audiometric.report/it/privacy-policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/privacy-policy" />
+  </url>
+  <url>
+    <loc>https://audiometric.report/pt/privacy-policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/privacy-policy" />
+  </url>
+
+  <!-- ==================== FAQ (/faq) ==================== -->
+  <url>
+    <loc>https://audiometric.report/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/faq" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/faq" />
+  </url>
+  <url>
+    <loc>https://audiometric.report/en/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/faq" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/faq" />
+  </url>
+  <url>
+    <loc>https://audiometric.report/de/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/faq" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/faq" />
+  </url>
+  <url>
+    <loc>https://audiometric.report/fr/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/faq" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/faq" />
+  </url>
+  <url>
+    <loc>https://audiometric.report/it/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/faq" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/faq" />
+  </url>
+  <url>
+    <loc>https://audiometric.report/pt/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://audiometric.report/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audiometric.report/en/faq" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://audiometric.report/de/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audiometric.report/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://audiometric.report/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://audiometric.report/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audiometric.report/faq" />
   </url>
 </urlset>
