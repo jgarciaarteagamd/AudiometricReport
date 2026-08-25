@@ -1,8 +1,17 @@
 {
-  "name": "react-example",
+  "name": "audiometric-report",
   "private": true,
   "version": "2.1.0",
   "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgarciaarteagamd/AudiometricReport.git"
+  },
+  "homepage": "https://audiometric.report",
+  "bugs": {
+    "url": "https://github.com/jgarciaarteagamd/AudiometricReport/issues"
+  },
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
@@ -11,21 +20,14 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@azure/msal-browser": "^5.7.0",
-    "@google/genai": "^1.29.0",
-    "@microsoft/microsoft-graph-client": "^3.0.7",
     "@tailwindcss/vite": "^4.1.14",
     "@vitejs/plugin-react": "^5.0.4",
-    "dotenv": "^17.2.3",
-    "dropbox": "^10.34.0",
-    "express": "^4.21.2",
     "lucide-react": "^0.546.0",
     "motion": "^12.23.24",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "recharts": "^3.8.1",
-    "vite": "^6.2.0",
-    "xlsx": "^0.18.5"
+    "vite": "^6.2.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
