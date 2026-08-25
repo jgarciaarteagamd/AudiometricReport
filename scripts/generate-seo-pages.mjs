@@ -25,6 +25,8 @@ const VIEW_TO_SLUG = {
   legalNotice: 'legal-notice',
   privacyPolicy: 'privacy-policy',
   faq: 'faq',
+  termsAndConditions: 'terms-and-conditions',
+  reportIssue: 'report-issue',
 };
 
 function getCleanPath(view, lang) {

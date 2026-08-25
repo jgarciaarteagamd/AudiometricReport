@@ -6,22 +6,26 @@ export type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
 export const SEO_VIEWS = ['home', 'calculator', 'reportGenerator', 'legalNotice', 'privacyPolicy', 'faq'] as const;
 export type SeoView = (typeof SEO_VIEWS)[number];
 
-export const VIEW_TO_SLUG: Record<SeoView, string> = {
+export const VIEW_TO_SLUG: Record<string, string> = {
   home: '',
   calculator: 'calculator',
   reportGenerator: 'report-generator',
   legalNotice: 'legal-notice',
   privacyPolicy: 'privacy-policy',
   faq: 'faq',
+  termsAndConditions: 'terms-and-conditions',
+  reportIssue: 'report-issue',
 };
 
-export const SLUG_TO_VIEW: Record<string, SeoView> = {
+export const SLUG_TO_VIEW: Record<string, AppView | 'home'> = {
   '': 'home',
   'calculator': 'calculator',
   'report-generator': 'reportGenerator',
   'legal-notice': 'legalNotice',
   'privacy-policy': 'privacyPolicy',
   'faq': 'faq',
+  'terms-and-conditions': 'termsAndConditions',
+  'report-issue': 'reportIssue',
 };
 
 /**
@@ -34,7 +38,7 @@ export const SLUG_TO_VIEW: Record<string, SeoView> = {
  *  - ('faq', 'fr') -> '/fr/faq'
  */
 export function getCleanPath(view: AppView | 'home', lang: string = 'es'): string {
-  const normalizedView: SeoView = view === 'menu' ? 'home' : (view as SeoView);
+  const normalizedView = view === 'menu' ? 'home' : view;
   const slug = VIEW_TO_SLUG[normalizedView] !== undefined ? VIEW_TO_SLUG[normalizedView] : '';
   const isDefaultLang = !lang || lang === 'es';
 
