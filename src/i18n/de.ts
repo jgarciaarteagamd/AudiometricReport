@@ -90,7 +90,15 @@ const de = {
         q3: "Ist es sicher, Patientendaten auf dieser Website zu verarbeiten?",
         a3: "Absolut. AudiometricReport arbeitet nach dem Paradigma des 'Edge Computing' oder der lokalen Verarbeitung. Keine der eingegebenen Daten (Namen, Daten oder Hörstufen) verlässt jemals Ihren Browser oder wird auf externen Servern gespeichert. Das ist Datenschutz durch Design.",
         q4: "Wofür wird die Verwendung dieses Tools empfohlen?",
-        a4: "Dies ist ein dokumentarisches Support-Büro-Tool für HNO-Spezialisten und Audiologen, die die Erstellung klinischer Berichte und Berechnungen mit validierter mathematischer Präzision (WHO und AMA-Standards) rationalisieren möchten."
+        a4: "Dies ist ein dokumentarisches Support-Büro-Tool für HNO-Spezialisten und Audiologen, die die Erstellung klinischer Berichte und Berechnungen mit validierter mathematischer Präzision (WHO und AMA-Standards) rationalisieren möchten.",
+        q5: "Ersetzt dieses Tool den offiziellen Befund eines Audiologen oder HNO-Arztes?",
+        a5: "Nein. AudiometricReport ist ein Rechen- und Schreibhilfsmittel. Die Ergebnisse von PTA und prozentualem Hörverlust müssen immer von einem zugelassenen Facharzt überprüft, interpretiert und unterzeichnet werden, der die endgültige klinische Verantwortung für den Befund behält.",
+        q6: "Was ist der Unterschied zwischen den Standards von AMA, AAO-HNS und der WHO?",
+        a6: "AAO-HNS (1979) und AMA teilen sich dieselbe Basisformel für 500-4000 Hz mit einem Schwellenwert von 25 dB, während die WHO einen anderen Schwellenwert verwendet und zusätzliche Frequenzen gewichtet. Mit AudiometricReport können Sie nach jedem der drei Standards rechnen, um den Anforderungen Ihres Landes oder Ihrer Einrichtung gerecht zu werden.",
+        q7: "Benötige ich eine Internetverbindung, um den Rechner zu nutzen oder den Bericht zu erstellen?",
+        a7: "Sie benötigen nur eine Verbindung, um die Seite beim ersten Mal zu laden. Alle Berechnungen und die PDF-Erstellung erfolgen im Speicher Ihres eigenen Browsers (Edge Computing) – Sie können offline weiterarbeiten, sobald die App geladen ist.",
+        q8: "In welchem Format wird der Bericht heruntergeladen und kann ich ihn danach bearbeiten?",
+        a8: "Der Bericht wird als druckfertige PDF-Datei heruntergeladen, die Sie der Patientenakte beifügen können. Wenn Sie Daten korrigieren müssen, müssen Sie den Bericht aus der App neu generieren — AudiometricReport speichert absichtlich keine bereits exportierten Berichte und erlaubt auch keine Bearbeitung, als Teil seines auf Datenschutz ausgerichteten Ansatzes."
       }
     },
     disclaimer: {

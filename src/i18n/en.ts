@@ -90,7 +90,15 @@ const en = {
         q3: "Is it safe to process patient data on this website?",
         a3: "Absolutely. AudiometricReport operates on the 'Edge Computing' or local processing paradigm. No data entered (names, dates, or hearing levels) ever leaves your browser or is stored on external servers. It is privacy by design.",
         q4: "What is the recommended use for this tool?",
-        a4: "This is a documentary support office tool for ENT specialists and audiologists seeking to streamline the generation of clinical reports and calculations with validated mathematical precision (WHO and AMA standards)."
+        a4: "This is a documentary support office tool for ENT specialists and audiologists seeking to streamline the generation of clinical reports and calculations with validated mathematical precision (WHO and AMA standards).",
+        q5: "Does this tool replace an official report from an audiologist or ENT?",
+        a5: "No. AudiometricReport is a calculation and drafting support tool. PTA and hearing loss percentage results must always be reviewed, interpreted, and signed off by a licensed professional, who retains final clinical responsibility for the report.",
+        q6: "What's the difference between the AMA, AAO-HNS, and WHO standards?",
+        a6: "AAO-HNS (1979) and AMA share the same base formula across 500-4000 Hz with a 25 dB threshold, while WHO uses a different threshold and weights additional frequencies. AudiometricReport lets you calculate under any of the three standards to match your country's or institution's requirements.",
+        q7: "Do I need an internet connection to use the calculator or generate the report?",
+        a7: "You only need a connection to load the page the first time. All calculations and PDF generation happen inside your own browser's memory (edge computing) — you can keep working offline once the app has loaded.",
+        q8: "What format is the report downloaded in, and can I edit it afterward?",
+        a8: "The report downloads as a print-ready PDF file you can attach to the patient's clinical record. If you need to correct any data, you'll need to regenerate it from the app — AudiometricReport doesn't store or allow editing of already-exported reports, by design, as part of its privacy-first approach."
       }
     },
     disclaimer: {

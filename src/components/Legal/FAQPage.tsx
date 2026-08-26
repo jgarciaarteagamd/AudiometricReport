@@ -14,6 +14,10 @@ const FAQPage: React.FC<FAQPageProps> = ({ onBack }) => {
       { q: t('free.landing.faq.q2'), a: t('free.landing.faq.a2') },
       { q: t('free.landing.faq.q3'), a: t('free.landing.faq.a3') },
       { q: t('free.landing.faq.q4'), a: t('free.landing.faq.a4') },
+      { q: t('free.landing.faq.q5'), a: t('free.landing.faq.a5') },
+      { q: t('free.landing.faq.q6'), a: t('free.landing.faq.a6') },
+      { q: t('free.landing.faq.q7'), a: t('free.landing.faq.a7') },
+      { q: t('free.landing.faq.q8'), a: t('free.landing.faq.a8') },
   ];
 
   return (

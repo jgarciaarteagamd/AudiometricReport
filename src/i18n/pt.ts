@@ -90,7 +90,15 @@ const pt = {
         q3: "É seguro processar dados de pacientes neste site?",
         a3: "Absolutamente. O AudiometricReport opera sob o paradigma de 'Edge Computing' ou processamento local. Nenhum dado inserido (nomes, datas ou níveis de audición) jamais sai do seu navegador ou é armazenado em servidores externos. É privacidade por design.",
         q4: "Qual é o uso recomendado para esta ferramenta?",
-        a4: "Esta é uma ferramenta ofimática de suporte documental para especialistas em otorrinolaringologia e audiologia que buscam agilizar a geração de relatórios e cálculos clínicos com precisão matemática validada (padrões OMS e AMA)."
+        a4: "Esta é uma ferramenta ofimática de suporte documental para especialistas em otorrinolaringologia e audiologia que buscam agilizar a geração de relatórios e cálculos clínicos com precisão matemática validada (padrões OMS e AMA).",
+        q5: "Esta ferramenta substitui o relatório oficial de um audiologista ou otorrinolaringologista?",
+        a5: "Não. O AudiometricReport é uma ferramenta de apoio ao cálculo e à redação. Os resultados do PTA e da percentagem de perda auditiva devem ser sempre revistos, interpretados e assinados por um profissional credenciado, que assume a responsabilidade clínica final pelo relatório.",
+        q6: "Qual é a diferença entre as normas AMA, AAO-HNS e a da OMS?",
+        a6: "A AAO-HNS (1979) e a AMA partilham a mesma fórmula base para 500-4000 Hz com um limiar de 25 dB, enquanto a OMS utiliza um limiar diferente e pondera frequências adicionais. O AudiometricReport permite calcular sob qualquer uma das três normas para se adaptar aos requisitos do seu país ou instituição.",
+        q7: "Preciso de uma ligação à internet para usar a calculadora ou gerar o relatório?",
+        a7: "Apenas precisa de ligação para carregar a página da primeira vez. Todos os cálculos e a geração do PDF ocorrem na memória do seu próprio navegador (edge computing) — pode continuar a trabalhar offline assim que a aplicação for carregada.",
+        q8: "Em que formato o relatório é transferido e posso modificá-lo posteriormente?",
+        a8: "O relatório é transferido como um ficheiro PDF pronto para imprimir que pode anexar ao processo clínico do paciente. Se precisar de corrigir algum dado, terá de gerá-lo novamente a partir da aplicação — o AudiometricReport não armazena nem permite a edição de relatórios já exportados, como parte da sua abordagem focada na privacidade."
       }
     },
     disclaimer: {

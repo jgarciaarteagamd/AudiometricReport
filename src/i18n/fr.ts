@@ -90,7 +90,15 @@ const fr = {
         q3: "Est-il sûr de traiter les données des patients sur ce site web ?",
         a3: "Absolument. AudiometricReport fonctionne selon le paradigme de l' 'Edge Computing' ou traitement local. Aucune donnée saisie (noms, dates ou niveaux d'audition) ne quitte jamais votre navigateur et n'est stockée sur des serveurs externes. C'est la confidentialité dès la conception.",
         q4: "Quelle est l'utilisation recommandée de cet outil ?",
-        a4: "Il s'agit d'un outil de support documentaire de bureau pour les spécialistes ORL et les audiologistes cherchant à rationaliser la génération de rapports cliniques et de calculs avec une précision mathématique validée (normes OMS et AMA)."
+        a4: "Il s'agit d'un outil de support documentaire de bureau pour les spécialistes ORL et les audiologistes cherchant à rationaliser la génération de rapports cliniques et de calculs avec une précision mathématique validée (normes OMS et AMA).",
+        q5: "Cet outil remplace-t-il le rapport officiel d'un audiologiste ou d'un ORL ?",
+        a5: "Non. AudiometricReport est un outil d'aide au calcul et à la rédaction. Les résultats du PTA et du pourcentage de perte auditive doivent toujours être examinés, interprétés et signés par un professionnel agréé, qui conserve la responsabilité clinique finale du rapport.",
+        q6: "Quelle est la différence entre les normes AMA, AAO-HNS et celle de l'OMS ?",
+        a6: "L'AAO-HNS (1979) et l'AMA partagent la même formule de base sur 500-4000 Hz avec un seuil de 25 dB, tandis que l'OMS utilise un seuil différent et pondère des fréquences supplémentaires. AudiometricReport permet de calculer selon l'une des trois normes pour s'adapter aux exigences de votre pays ou de votre établissement.",
+        q7: "Ai-je besoin d'une connexion internet pour utiliser la calculatrice ou générer le rapport ?",
+        a7: "Vous n'avez besoin d'une connexion que pour charger la page la première fois. Tous les calculs et la génération du PDF s'effectuent dans la mémoire de votre propre navigateur (edge computing) — vous pouvez continuer à travailler hors ligne une fois l'application chargée.",
+        q8: "Dans quel format le rapport est-il téléchargé et puis-je le modifier par la suite ?",
+        a8: "Le rapport est téléchargé sous forme de fichier PDF prêt à imprimer que vous pouvez joindre au dossier clinique du patient. Si vous devez corriger une donnée, vous devrez le générer à nouveau depuis l'application — AudiometricReport ne stocke ni ne permet la modification des rapports déjà exportés, conformément à sa conception axée sur la confidentialité."
       }
     },
     disclaimer: {

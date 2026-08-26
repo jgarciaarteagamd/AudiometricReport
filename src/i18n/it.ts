@@ -90,7 +90,15 @@ const it = {
         q3: "È sicuro elaborare i dati dei pazienti su questo sito web?",
         a3: "Assolutamente. AudiometricReport opera secondo il paradigma dell' 'Edge Computing' o elaborazione locale. Nessun dato inserito (nomi, date o livelli uditivi) esce mai dal tuo browser né viene memorizzato su server esterni. È privacy per progettazione.",
         q4: "Qual è l'uso raccomandato per questo strumento?",
-        a4: "Questo è uno strumento di supporto documentale per specialisti otorinolaringoiatri e audiologi che desiderano snellire la generazione di rapporti clinici e calcoli con precisione matematica validata (standard OMS e AMA)."
+        a4: "Questo è uno strumento di supporto documentale per specialisti otorinolaringoiatri e audiologi che desiderano snellire la generazione di rapporti clinici e calcoli con precisione matematica validata (standard OMS e AMA).",
+        q5: "Questo strumento sostituisce il referto ufficiale di un audiologo o di un otorinolaringoiatra?",
+        a5: "No. AudiometricReport è uno strumento di supporto per il calcolo e la stesura. I risultati del PTA e della percentuale di perdita uditiva devono sempre essere revisionati, interpretati e firmati da un professionista abilitato, che mantiene la responsabilità clinica finale del referto.",
+        q6: "Qual è la differenza tra gli standard AMA, AAO-HNS e dell'OMS?",
+        a6: "L'AAO-HNS (1979) e l'AMA condividono la stessa formula di base per 500-4000 Hz con una soglia di 25 dB, mentre l'OMS utilizza una soglia diversa e pondera frequenze aggiuntive. AudiometricReport consente di calcolare secondo uno qualsiasi dei tre standard per adattarsi ai requisiti del proprio paese o della propria struttura.",
+        q7: "Ho bisogno di una connessione a Internet per utilizzare il calcolatore o generare il referto?",
+        a7: "Hai bisogno di una connessione solo per caricare la pagina la prima volta. Tutti i calcoli e la generazione del PDF avvengono nella memoria del tuo browser (edge computing): puoi continuare a lavorare offline una volta caricata l'app.",
+        q8: "In quale formato viene scaricato il referto e posso modificarlo in seguito?",
+        a8: "Il referto viene scaricato come file PDF pronto per la stampa da allegare alla cartella clinica del paziente. Se devi correggere un dato, dovrai rigenerarlo dall'app: per tutelare la privacy, AudiometricReport non memorizza né consente la modifica di referti già esportati."
       }
     },
     disclaimer: {
